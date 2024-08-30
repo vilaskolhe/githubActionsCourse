@@ -5,6 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print text given
-        run: echo "Hello Vilas"
+        run: |
+          echo "Hello Vilas1"
+          echo "Hello Vilas2"
+          echo "Hello Vilas3"
+          echo "Hello Vilas4"
       - name: print test given 2
         run: echo "Hello Vilas"
