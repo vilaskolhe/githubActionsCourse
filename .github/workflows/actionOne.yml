@@ -4,7 +4,7 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      -name: print text given
+      - name: print text given
         run: echo "Hello Vilas!"
-      -name: print test given 2
+      - name: print test given 2
         run: echo "Hello Vilas!2"
